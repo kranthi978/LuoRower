@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Login">
         <activity android:name=".userpage"></activity>
         <activity android:name=".adminpage" />
+        <activity android:name=".admin_add_bike"/>
         <activity android:name=".signin" />
         <activity
             android:name=".homeactivity"

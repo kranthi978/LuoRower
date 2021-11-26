@@ -7,6 +7,7 @@
     android:background="@color/black"
     tools:context=".adminpage">
     <TextView
+        android:id="@+id/AppName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LUO ROWER"
@@ -15,69 +16,14 @@
         android:gravity="center"
         android:textStyle="bold"/>
 
-    <RelativeLayout
+    <Button
+        android:id="@+id/addBike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
-        <EditText
-            android:id="@+id/BikeModel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#30ffffff"
-            android:hint="Bike Model"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:layout_margin="10dp"
-            android:padding="20dp"
-            android:textSize="20dp"
-            android:drawableLeft="@drawable/ic_white_bike"
-            android:drawablePadding="10dp"/>
-        <EditText
-            android:id="@+id/BikeRentPrice"
-            android:layout_below="@id/BikeModel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#30ffffff"
-            android:hint="Bike Rent Price"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:layout_margin="10dp"
-            android:padding="20dp"
-            android:inputType="number"
-            android:textSize="20dp"
-            android:drawableLeft="@drawable/ic_white_rupee"
-            android:drawablePadding="10dp"/>
-        <EditText
-            android:id="@+id/BikeType"
-            android:layout_below="@id/BikeRentPrice"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#30ffffff"
-            android:hint="Bike Type"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:layout_margin="10dp"
-            android:padding="20dp"
-            android:textSize="20dp"
-            android:drawableLeft="@drawable/ic_white_type"
-            android:drawablePadding="10dp"/>
-        <Button
-            android:id="@+id/addBike"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/BikeType"
-            android:text="Add Bike"/>
-
-        <TextView
-            android:layout_below="@id/addBike"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/go_back"
-            android:text="Go Back"
-            android:textColor="@color/purple_200"
-            android:textSize="18dp"
-            android:gravity="center"/>
-    </RelativeLayout>
+        android:layout_centerInParent="true"
+        android:text="Add Bike"
+        android:textColor="@color/white"
+        />
 
 
     <LinearLayout
