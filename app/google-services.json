@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198786681758",
+    "project_id": "luorower",
+    "storage_bucket": "luorower.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198786681758:android:1dab4aa4fce5478ef4a48f",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198786681758-vjfpn9m5b0n1gt5mfrht1b7njddtvpnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg6eOm8rrpt36Qh1A3rqTX3pATCxA_9k4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198786681758-vjfpn9m5b0n1gt5mfrht1b7njddtvpnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
