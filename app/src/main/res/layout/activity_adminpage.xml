@@ -4,11 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".adminpage">
     <TextView
+        android:id="@+id/AppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUO ROWER"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/addBike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Admin"
+        android:layout_centerInParent="true"
+        android:text="Add Bike"
+        android:textColor="@color/white"
+        />
 
-/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#3700B3">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_home_24" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_book_24" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_perm_identity_24" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24" />
+    </LinearLayout>
+
 </RelativeLayout>
