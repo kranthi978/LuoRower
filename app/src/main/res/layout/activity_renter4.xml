@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".renterdetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        >
+        <TextView
+            android:id="@+id/bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LUO ROWER"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/bike1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/person"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name"
+
+            android:text="Swathi"
+            android:background="#30ffffff"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile"
+            android:text="6300633657"
+            android:background="#30ffffff"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:inputType="phone"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:background="#30ffffff"
+            android:text="kswathi@gmail.com"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile1"
+            android:background="#30ffffff"
+            android:text="Ts09m35"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

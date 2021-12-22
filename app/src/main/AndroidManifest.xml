@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.login">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
-        <activity android:name=".bikeproofs"></activity>
+        <activity android:name=".renter9"></activity>
+        <activity android:name=".renter8" />
+        <activity android:name=".renter7" />
+        <activity android:name=".renter6" />
+        <activity android:name=".renter5" />
+        <activity android:name=".renter4" />
+        <activity android:name=".renter3" />
+        <activity android:name=".renter1" />
+        <activity android:name=".renterdetails" />
+        <activity android:name=".bikeproofs" />
         <activity android:name=".admin_add_bike" />
         <activity android:name=".userpage" />
         <activity android:name=".adminpage" />
